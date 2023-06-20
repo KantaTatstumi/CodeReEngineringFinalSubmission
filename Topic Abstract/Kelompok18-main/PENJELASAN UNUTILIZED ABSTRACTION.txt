@@ -1,3 +1,0 @@
-pada code before disini, ditemukan sebuah permasalahan. Permasalahan tersebut adalah ditemukannya abstract class dan function yang tidak dipakai sama sekali. Mereka adalah class status dan void tes. hal ini adalah salah satu contoh dari unutilized abstraction.
-
-Setelah mengetahui masalahnya, kita masuk ke penyelesainnya. Untuk menyelesaikan masalah ini, yang kita lakukan adalah dengan menghapus class dan function tersebut. Hal ini dilakukan karena pada dasarnya unutilized abstraction ini mirip dengan dead code. Dan penanganan smell semacam ini adalah dengan dihapus.
