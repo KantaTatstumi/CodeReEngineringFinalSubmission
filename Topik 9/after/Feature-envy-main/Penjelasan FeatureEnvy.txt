@@ -1,0 +1,2 @@
+Pada Feature Envy ini Code memiliki Smell pada Class User yang mana Methode GetFullAddress seharusnya dipunya dimiliki Class User.
+Maka dari itu kita hanya memindahkan Methode GetFullAddress dari User ke Class ContactInfo.

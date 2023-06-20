@@ -1,0 +1,18 @@
+PENJELASAN JAWABAN REFACTOR DEADCODE DAN SPECULATIVE GENERALITY
+(Hasil after berada pada file dengan extension .java)
+
+
+
+DEADCODE:
+disini deadcode codesmell dapat ditemukan pada class DiscountCalculator. pada class tersebut dapat dilihat bahwa ada statement yang sudah tak dipakai lagi. statement itu adalah if(priceBefore > 5000000). statement tersebut menjadi code smell karena dijelaskan bahwa sekarang program sudah tidak diminta untuk melakukan diskon 20% lagi, sedangkan meratakan diskon 10% untuk semua item.
+
+Penyelesaian:
+Untuk menyelesaikan masalah ini, kita tinggal menghapus statement if tersebut karena sudah tak dibutuhkan lagi.
+
+
+
+SPECULATIVE GENERALITY:
+untuk hal ini sebenernya bergantung perspektif. Namun nampaknya pembuat code beranggapan bahwa program tak perlu punya kemampuan untuk dapat melakukan DECISION MAKING saat berada di runtime (sehingga tak perlu if else). Oleh karena itu, class ini menjadi sebuah code smell speculative generality karena code berspekulasi bahwa calculator ini harus dapat melakukan DECISION MAKING saat berada di runtime, padahal untuk kasus ini tidak perlu. Dengan demikian, class ini menjadi sebuah code smell.
+
+Penyelesaian:
+Masalah ini dapat diselesaikan dengan menghapus method if-else tersebut dan menggantinya menjadi hanya method-method sendiri dengan tugas masing-masingnya untuk addition, substraction, dan sebagainya. Dengan demikian, sekarang programmer akan dengan mudah menulis operasi yang ia inginkan karena namanya sekarang sudah jelas dan masalah speculative generality telah terselesaikan. 

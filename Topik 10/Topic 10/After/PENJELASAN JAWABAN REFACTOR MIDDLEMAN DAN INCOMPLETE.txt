@@ -1,0 +1,18 @@
+PENJELASAN JAWABAN REFACTOR
+
+
+
+MiddleMan:
+pada code middleman, kelompok kami tak dapat menemukan middleman pada file ini, yang kami temukan justru message chain, dimana dapat dilhat pada main before, untuk mendapat weapontype kita harus panggil getWeapon terlebih dahulu. Sehingga penyelesaian yang dilakukan adalah dengan solusi message chain, yaitu hide delegate.
+
+Penyelesaian MiddleMan: 
+kita ke class warrior, di class tersebut kita buat sebuah method baru yang kita gunakan untuk akses weapontype warrior. Dengan demikian kita telah melakukan hide delegate dan sekarang kita dapat memanggil weaponType tanpa mengalami message chains.
+
+
+
+
+Incomplete Library:
+Disini dapat dilihat bahwa pada file before class EmailService nya kosong. ini artinya library yang kita punya tidak lengkap sehingga menjadi code smell. Penyelesaian dari kasus ini dapat dilakukan dengan introduce foreign method.
+
+Penyelesaian:
+jadi pada library class yang incomplete tersebut, kita menambahkan method external yang kita buat sendiri dengan fungsi sesuai dengan yang kita inginkan. Dengan demikian kita telah menyelesaikan masalah incomplete library. 

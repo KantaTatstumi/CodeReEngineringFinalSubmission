@@ -1,0 +1,7 @@
+PENJELASAN JAWABAN REFACTOR INAPROPRIATE INTIMACY
+
+INAPROPRIATE INTIMACY:
+disini, code smell inapropriate intimacy dapat ditemukan pada class customer. pada class tersebut dapat dilihat bahwa variabel yang digunakan adalah public. Hal ini memungkinkan class BankAccount untuk mengakses hal yang tak seharusnya dapat diakses olehnya. Oleh karena itu, class Customer ini memiliki code smell inapropriate intimacy. 
+
+Penyelesaian:
+Cara menyelesaikan masalah ini adalah dengan mengganti variabel customer menjadi private dan membuatkan getter setter nya. Dengan demikian, sekarang akses class lain terhadap class Customer menjadi terbatas dan code smell inapropriate intimacy pada class customer telah hilang.
