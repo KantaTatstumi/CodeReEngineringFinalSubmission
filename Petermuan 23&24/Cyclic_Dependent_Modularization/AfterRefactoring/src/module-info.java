@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Rigo
- *
- */
-module BeforeRefactoring {
-}
