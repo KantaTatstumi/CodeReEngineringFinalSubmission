@@ -1,3 +1,0 @@
-Pada code ini, kami melakukan refactor pada class dari code nya. Dimana disini dibuat class yang sebenarnya tidak benar-benar dibutuhkan untuk dibuat jadi class (terlalu berlebihan jika dibuat jadi class). salah satu bukti dari tidak dibutuhkannya class ini adalah bahwa class yang dibuat tidak membuat algoritma/kerapihan meningkat, melainkan hanya membuat code terkesan rumit. 
-
-Sehingga untuk mengatasi hal tersebut, class tersebut dihapus dan dibuat langsung saja tanpa perlu menggunakan class lagi.
