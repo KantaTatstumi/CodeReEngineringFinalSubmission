@@ -1,0 +1,1 @@
+Pada Insufficient Modularization ini pada kelas insufficient2 tedapat smell karena kelasnya yang terlalu besar dan seharunsnya kelasnya dibagi ke beberapa kelas agar mempermudah dalam melakukan pengkodean, dan setelah diafter dibagi kedalam 2 kelas yaitu Shopping Cart & item yang berguna mempermudah dalam pengerjaan kode

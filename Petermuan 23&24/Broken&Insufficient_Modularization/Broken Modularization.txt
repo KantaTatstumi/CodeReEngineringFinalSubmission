@@ -1,0 +1,1 @@
+Pada Broken Modularization ini pada kode beforenya terbagi menjadi 2 yaitu class Mahassiswa dan DataMahasiswa sehingga membuatnya menjadi Smell Code. Seharusnya bisa dibuat menjadi 1 class yaitu DataMahasiswa saja juga sudah cukup.
