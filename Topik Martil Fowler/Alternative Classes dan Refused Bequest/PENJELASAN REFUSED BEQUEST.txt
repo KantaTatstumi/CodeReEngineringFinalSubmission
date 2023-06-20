@@ -1,0 +1,3 @@
+pada code before yang berikan, dapat dilihat bahwa disitu company melakukan inheritance pada personal tax calculator, namun company tidak mau menggunakan semua turunan dari class parentnya. Hal ini menjadi sebuah masalah, yaitu menimbulkan smell yang disebut refused bequest.
+
+Untuk menangani hal tersebut, pertama kita perlu menganalisis trait classnya. Disini class company menggunakan inheritance bukan dengan tujuan mendapatkan sifat warisan dari parentnya, melainkan hanya ingin ambil beberapa functionnya saja. Oleh karena itu, kita bisa menghilangkan inheritance company kpd personal tax calculator dan menggantinya dengan delegation saja. Dengan demikian kini smell telah teratasi.

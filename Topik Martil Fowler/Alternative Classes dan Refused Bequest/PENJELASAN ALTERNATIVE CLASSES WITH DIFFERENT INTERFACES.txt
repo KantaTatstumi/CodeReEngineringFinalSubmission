@@ -1,0 +1,3 @@
+pada code before ini, ditemukan sebuah masalah, yaitu bahwa ada bagian code yang penggunaannya diulang di class yang berbeda. Permasalahan ini adlah salah satu masalah yang harus direfactor karena ini adalah smell alternative classes with different interfaces.
+
+Penyelesaian dari code ini dapat dilakukan dengan menghapus isi dari function convertToCurrency dan mengganti isinya dengan memanggil function dari class CurrencyConverter (melalui delegation). Dengan demikian, kini code sudah tidak ada yang berulang dan masalah ACw/DI pun telah terselesaikan.
