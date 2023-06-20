@@ -1,0 +1,1 @@
+pada class ini terdapat code smell berupa lazy class yang dimana sebuah class tidak digunakan secara baik pada size. case ini dapat diselesaikan dengan menghilangkan class yang tidak tergunakan atau membuat class tersebut compact dengan penggunaan code yang diimplementasikan.

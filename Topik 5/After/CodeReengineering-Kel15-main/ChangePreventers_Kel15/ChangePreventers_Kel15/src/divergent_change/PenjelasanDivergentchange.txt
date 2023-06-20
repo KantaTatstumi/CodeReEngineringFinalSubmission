@@ -1,0 +1,1 @@
+pada case ini terdapat code smell yang berupa divergent change yang dimana sebuah class melanggar aturan SRP atau single responsibility principle sehingga beberapa method harus dilakukan extract class dan setiap class hanya memiliki 1 responsibility yang berjalan

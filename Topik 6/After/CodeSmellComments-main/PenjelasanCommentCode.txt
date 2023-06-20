@@ -1,0 +1,1 @@
+pada case ini terdapat code smell comment, untuk penyelesaiannya hanya perlu menghapus comment pada code yang tidak terlalu penting atau mengubah struktur parameter / method pada class sehingga lebih compact dan tertata sesuai fungsi

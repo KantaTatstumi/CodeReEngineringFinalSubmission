@@ -1,0 +1,1 @@
+pada case ini terdapat code smell duplicate code, untuk penyelesainnya bisa dengan meminimalisir penggunaan code yang sama dengan membentuk method baru yang dapat digunakan untuk class lainnya yang menggunakan code hampir mirip dengan method baru tersebut

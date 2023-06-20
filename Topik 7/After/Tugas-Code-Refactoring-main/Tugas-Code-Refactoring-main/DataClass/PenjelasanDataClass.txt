@@ -1,0 +1,1 @@
+pada case ini terdapat code smell data class yaitu dimana sebuah class hanya digunakan untuk menyimpan data tanpa ada method sama sekali, untuk penyelesaian ini, code/class dapat digabungkan dengan methode lain yang akan digunakan pada penjalanan code atau membuat class baru untuk menampung method dan data yang berhubungan.
