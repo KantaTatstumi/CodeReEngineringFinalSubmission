@@ -1,0 +1,1 @@
+Pada Unfactored ini dibuat kelas baru bernama EmployeeType berkelas enum untuk membuat tipe employee secara spesifik agar ketika hasilnya dipirnt maka nama employee dan level terbagi merata pada methodenya
