@@ -1,1 +1,0 @@
-Pada Missing Encapsulation ini pada kode beforenya dimana class Employee ini bisa dibuatkan constructors variabel name, gender, age, salary. Seharusnya kelas terdaftar secara jelas dari atas keabawah sehingga nanti pada kelas main dengan memanfaatkan aggregate functions membuat lebih mudah digunakan.

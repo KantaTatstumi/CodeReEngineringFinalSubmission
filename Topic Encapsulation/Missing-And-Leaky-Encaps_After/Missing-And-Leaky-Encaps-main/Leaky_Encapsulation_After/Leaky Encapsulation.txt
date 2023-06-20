@@ -1,1 +1,0 @@
-Pada Smell Leaky Encapsulation ini memiliki perubahan dimana pada Beforenya pada class ToDoList dimana ToDoList dibuat dengan kelas yang berbeda, seharusnya bisa dijadikan satu dan digunakan oleh kelas ToDoList saja dengan dibuat menjadi ArrayList
