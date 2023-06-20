@@ -1,0 +1,6 @@
+Pada Main line 67/68 Parameter pada cek saldo dihapus saja dan diganti whole object saja
+
+Pada WalletNotification yaitu string name, string email, int amount, int current
+
+diganti menjadi -> user.getName(), user.getWallet().getBalance() pada body
+

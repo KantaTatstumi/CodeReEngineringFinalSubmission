@@ -1,0 +1,4 @@
+Pada Class Customer memiliki Smell Code yang di comment merupakan smell code yang dapat membebankan pada Class CustomeClar,
+dengan membuat Class Menu dapat meringankan Class Customer dalam melakukan pekerjaan dan juga tiap kelas dapat terbagi
+rata mengenai pekerjaanya, lalu dimana ada boolean hasCredit dan isAdult dimana hasCredit sudah memberikan output dari
+getcredit, lalu isAdult bisa dilakukan dengan mereturn age >= 18 yang sudah lebih ringkas dari pada membuat decision.

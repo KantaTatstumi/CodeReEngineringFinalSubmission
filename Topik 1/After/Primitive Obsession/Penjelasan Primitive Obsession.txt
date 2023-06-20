@@ -1,0 +1,1 @@
+yang dicomment disini adalah statement yang kami temukan sebagai code smell. Hal ini karena pada baris tersebut didapat sangat banyak primitive data type dan sebenarnya data type tersebut dapat digolongkan ke 2 class. Oleh karena itu, agar tidak terlalu banyak penggunaan primitive datatype di class Character, kita pisahkan 4 baris variabel tersebut ke dalam 2 class

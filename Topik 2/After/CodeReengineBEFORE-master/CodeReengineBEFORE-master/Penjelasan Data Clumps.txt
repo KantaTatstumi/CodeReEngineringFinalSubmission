@@ -1,0 +1,2 @@
+Data Clumps disini mmiliki perubahan pada Class Movies yang awalnya memiliki date Start dan Date End, dipisah dengan dibuatkan kelas baru
+yaitu kelas daterent yang berisi date Start dan Date End beserta getter dan setternya. date start dan end tersebut dibuat kedalam kelas baru karena keberadaan date start dan end tersebut membuat class movie menjadi kurang efektif dimana menyebabkan terjadinya data clumps.

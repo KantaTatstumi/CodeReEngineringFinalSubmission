@@ -1,0 +1,1 @@
+pada case ini, terjadi code smell yang berupa beberapa code class memiliki beberapa interface ( method atau parameter ) yang masing masing berbeda, untuk penyeleseain code smell ini dapat di alternatifkan dengan mengubahnya menjadi sebuah delegation 
