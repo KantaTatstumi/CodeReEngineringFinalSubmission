@@ -1,0 +1,3 @@
+Pada code before yang diberikan, ditemukan sebuah kesalahan dimana pada vehicle.java before terhadap abstract class motorcycle yang secara isi hampir sama persis dengan class vehicle. Hal ini adalah salah satu contoh duplicate abstract (identical implementation). 
+
+Untuk menyelesaikan permasalahan ini, maka kita tinggal menghapus class motorcycle dan memindahkan void cylinderCapacitynya ke class vehicle saja.
